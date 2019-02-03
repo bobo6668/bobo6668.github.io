@@ -187,6 +187,36 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -271,6 +301,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/软件安装/" itemprop="url" rel="index">
+                    <span itemprop="name">软件安装</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -299,64 +351,23 @@
 
       
         
-          
-            <h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h2 id="安装思路"><a href="#安装思路" class="headerlink" title="安装思路"></a><strong>安装思路</strong></h2><ul>
+          <h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h3 id="安装思路"><a href="#安装思路" class="headerlink" title="安装思路"></a><strong>安装思路</strong></h3><ul>
 <li>安装虚拟机 VMware<ul>
-<li><a href="https://mp.weixin.qq.com/s/Rdj5AA7aVOzFDMnXeousWg" target="_blank" rel="noopener">VMware15虚拟机安装教程</a></li>
+<li>参考 <a href="https://mp.weixin.qq.com/s/Rdj5AA7aVOzFDMnXeousWg" target="_blank" rel="noopener">VMware15虚拟机安装教程</a></li>
 </ul>
 </li>
 <li>安装 Ubuntu<ul>
-<li><a href="https://zhuanlan.zhihu.com/p/38797088" target="_blank" rel="noopener">VMware安装Ubuntu18.04（必会） - keaiC的文章 - 知乎</a></li>
+<li>参考 <a href="https://zhuanlan.zhihu.com/p/38797088" target="_blank" rel="noopener">VMware安装Ubuntu18.04（必会） - keaiC的文章 - 知乎</a></li>
 </ul>
 </li>
-<li>部署博客<ul>
-<li><a href="http://jinjinlin.com/2017/08/26/Hexo-Github%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">Hexo + Github一小时快速搭建博客教程</a><ul>
-<li>安装 Git<ul>
-<li><a href="https://blog.csdn.net/qq282330332/article/details/51855252" target="_blank" rel="noopener">ubuntu 16.04 安装git的方法</a></li>
-</ul>
-</li>
-<li>安装 Node.js（遇到困难）<ul>
-<li><a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04" target="_blank" rel="noopener">How To Install Node.js on Ubuntu 18.04</a></li>
-</ul>
-</li>
-<li>安装 <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>写第一个博客 helloworld<ul>
-<li><a href="https://hexo.io/zh-cn/docs/writing" target="_blank" rel="noopener">hexo-教程-写作</a></li>
-</ul>
-</li>
-<li>换新主题<ul>
-<li>next主题 <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">开始使用</a></li>
-<li><a href="https://www.zhihu.com/question/24422335" target="_blank" rel="noopener">有哪些好看的 Hexo 主题？- 知乎</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="难点：如何安装-Node-js"><a href="#难点：如何安装-Node-js" class="headerlink" title="难点：如何安装 Node.js"></a><strong>难点：如何安装 Node.js</strong></h2><ul>
-<li>参考 <a href="https://www.cnblogs.com/dubaokun/p/3558848.html" target="_blank" rel="noopener">linux 下部署nodejs（两种方式）</a><ul>
-<li>我选择的是第二种方式，直接下载二进制文件解压。</li>
-<li>问题在于：<img src="/2019/02/02/How to use Hexo to build your own blog/1.png" alt="1"></li>
-<li>参考上述链接可以解决以上问题</li>
-</ul>
-</li>
-</ul>
-<h2 id="完善第一篇文章"><a href="#完善第一篇文章" class="headerlink" title="完善第一篇文章"></a>完善第一篇文章</h2><ul>
-<li>插入图片<ul>
-<li>参考 <a href="http://etrd.org/2017/01/23/hexo%E4%B8%AD%E5%AE%8C%E7%BE%8E%E6%8F%92%E5%85%A5%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/" target="_blank" rel="noopener">hexo中完美插入本地图片</a></li>
-</ul>
-</li>
-<li>生成目录<ul>
-<li></li>
-</ul>
-</li>
-</ul>
-<h1 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h1><ul>
-<li><a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a></li>
-</ul>
-
-          
+<li>部署博客</li></ul>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/02/02/How to use Hexo to build your own blog/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -443,7 +454,25 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
             
 
           </nav>
