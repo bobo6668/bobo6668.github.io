@@ -403,12 +403,9 @@
 <li><p>生成目录</p>
 <ul>
 <li>其实很简单……在blog/themes/next/_config.yml中找到toc，然后enable。</li>
-<li><p><strong>注意</strong></p>
-<ul>
-<li><p>在浏览文章全文时才会有显示，sidebar在右边</p>
-</li>
-<li><p>另外，在Ubuntu时可能因为屏幕是4:3，没显示出来。在windows浏览时宽屏16:9有显示的</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Table Of Contents in the Sidebar</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Automatically add list number to toc.</span></span><br><span class="line"><span class="attr">  number:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<li><strong>注意</strong><ul>
+<li>在浏览文章全文时才会有显示，sidebar在右边</li>
+<li>另外，在Ubuntu时可能因为屏幕是4:3，没显示出来。在windows浏览时宽屏16:9有显示的<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Table Of Contents in the Sidebar</span></span><br><span class="line"><span class="attr">toc:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Automatically add list number to toc.</span></span><br><span class="line"><span class="attr">  number:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
@@ -419,28 +416,24 @@
 <li>参考 <a href="https://hexo.io/zh-cn/docs/front-matter" target="_blank" rel="noopener">hexo_front-matter</a></li>
 </ul>
 </li>
-<li><p>主页不显示全文</p>
-<ul>
+<li>主页不显示全文<ul>
 <li>参考 <a href="https://theme-next.iissnan.com/faqs.html#read-more" target="_blank" rel="noopener">如何设置「阅读全文」？</a></li>
 </ul>
 </li>
-<li><p>设置显示语言为简体中文</p>
-<ul>
+<li>设置显示语言为简体中文<ul>
 <li>blog/_config.yml 中，设置 language: zh-Hans</li>
 <li>blog/themes/next/_config.yml 中，设置 language: zh-Hans</li>
 </ul>
 </li>
 <li><p>可评论</p>
 <ul>
-<li><p>评论系统 来必力，参考 <a href="https://blog.csdn.net/qwerty200696/article/details/78836421" target="_blank" rel="noopener">hexo博客优化之实现来必力评论功能</a></p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Support for LiveRe comments system.</span></span><br><span class="line"><span class="comment"># You can get your uid from https://livere.com/insight/myCode (General web site)</span></span><br><span class="line"><span class="attr">livere_uid:</span> <span class="string">*******************</span></span><br></pre></td></tr></table></figure>
+<li>评论系统 来必力，参考 <a href="https://blog.csdn.net/qwerty200696/article/details/78836421" target="_blank" rel="noopener">hexo博客优化之实现来必力评论功能</a><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Support for LiveRe comments system.</span></span><br><span class="line"><span class="comment"># You can get your uid from https://livere.com/insight/myCode (General web site)</span></span><br><span class="line"><span class="attr">livere_uid:</span> <span class="string">*******************</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
 <li><p>修订时间</p>
 <ul>
-<li><p>参考 <a href="https://hexo.io/zh-cn/docs/front-matter" target="_blank" rel="noopener">hexo_front-matter</a>，在具体文章的front-matter增加updated，如：</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">date:</span> <span class="number">2019</span><span class="bullet">-02</span><span class="bullet">-02</span> <span class="number">17</span><span class="string">:57:15</span></span><br><span class="line"><span class="attr">updated:</span> <span class="number">2019</span><span class="bullet">-02</span><span class="bullet">-03</span> <span class="number">15</span><span class="string">:41:06</span></span><br></pre></td></tr></table></figure>
+<li>参考 <a href="https://hexo.io/zh-cn/docs/front-matter" target="_blank" rel="noopener">hexo_front-matter</a>，在具体文章的front-matter增加updated，如：<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">date:</span> <span class="number">2019</span><span class="bullet">-02</span><span class="bullet">-02</span> <span class="number">17</span><span class="string">:57:15</span></span><br><span class="line"><span class="attr">updated:</span> <span class="number">2019</span><span class="bullet">-02</span><span class="bullet">-03</span> <span class="number">15</span><span class="string">:41:06</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
